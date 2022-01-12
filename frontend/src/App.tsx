@@ -1,9 +1,13 @@
 import React from 'react';
+import Navbar from './components/Navbar';
+import 'index.css'
+
 
 
 function App() {
   return (
-    <h1>Página principal</h1>
+   <Navbar/>
+    
   );
 }
 
