@@ -1,7 +1,14 @@
 import Pagination from "components/Pagination";
 import MovieCard from "components/MovieCard";
+import axios from "axios";
 
 function Listing() {
+
+    //forma errada
+
+    axios.get('http://localhost:8080/movies/').then(response => {
+        console.log(response.data)
+    })
 
     return (
         <>
